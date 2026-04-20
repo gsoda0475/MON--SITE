@@ -1,0 +1,119 @@
+body {
+    font-family: Arial;
+    background-color: #ff69b4; /* rose bonbon */
+    margin: 20px;
+}
+.intro {
+    background-color: #fbe8dc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.conseils {
+    background-color: #fdf2ea;
+    padding: 20px;
+}
+
+.bloc {
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.intro {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.conseils {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.bloc {
+    margin-bottom: 20px;
+    background-color: #ffe4ec;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+}
+
+.galerie {
+    display: flex;
+    gap: 15px; /* espace entre les images */
+    justify-content: center;
+    flex-wrap: wrap; /* passe à la ligne si écran petit */
+}
+
+.galerie img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+}
+
+h1, h2 {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #ff69b4;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff69b4; /* rose bonbon */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ff3d9a;
+}
+
+.conseils {
+    text-align: center;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    margin: 15px auto;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
